@@ -1,4 +1,4 @@
-```markdown
+
 # Guide de Collaboration Git & GitHub
 
 ## 1. Lancer le début du code dans VS Code
@@ -59,4 +59,4 @@ git pull origin main
 ### Après soumission :
 - Vous pouvez **accepter le merge**.
 - Ou **demander des modifications** (en cas de conflits de fusion).
-```
+- 
