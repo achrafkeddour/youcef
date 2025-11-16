@@ -1,0 +1,68 @@
+
+
+1. lancer le debut du code en VSCODE
+2. créer "New repository" en GitHub (Public ou privé)
+
+3. 
+git init          # Initialise un nouveau dépôt Git 
+git add .         # Ajoute tous les fichiers et modifications à l’index (zone de staging)
+git commit -m "Premier commit"   
+
+git remote add origin https://github.com/Arselenne/NOM-DU-REPO.git
+
+git branch -M main
+# Renomme la branche actuelle en "main" (ou force son nom en "main")
+
+git push -u origin main
+# Envoie la branche "main" vers le dépôt distant et définit "origin/main" comme branche par défaut
+
+
+4. partager ce répertoire avec les autres (en siteweb ) 
+
+
+5. les autres vont cloner le dépôt
+git clone https://github.com/Arselenne/NOM-DU-REPO.git
+cd NOM-DU-REPO
+
+
+6. Chacun crée sa propre branche
+git branch (resultat main )
+git checkout -b nom-de-la-branche (eg : achraf-branch)
+
+
+
+7. sauvegarde ses modifications
+
+git add .
+git commit -m "modifications Achraf 09/11/2025"
+git push
+
+
+8. Quand quelqu’un veut intégrer ses modifications dans main
+git checkout nom-de-la-branche	 #verifier la branche
+git pull origin main 
+
+Ensuite il demande un merge vers main via GitHub :
+
+Depuis GitHub :
+
+Aller sur le dépôt.
+
+Cliquer sur Pull Requests.
+
+Cliquer New Pull Request.
+
+Choisir :
+base branch : main
+compare branch : nom-de-la-branche
+Cliquer : Create Pull Request
+
+Ajouter une description.
+
+Soumettre.
+
+Ensuite :
+
+tu peux accepter le merge,
+
+ou tu demandes des modifications.(en cas de merge conflicts)
