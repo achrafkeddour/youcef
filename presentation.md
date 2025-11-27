@@ -3,7 +3,7 @@
 
 ## 1. Lancer le début du code dans VS Code
 - lancer le code depuis V0 (Ai assistant) 
-- Ouvrez votre projet dans **VS Code**.
+- Ouvrez le projet dans **VS Code**.
 
 ## 2. Créer un "New Repository" sur GitHub
 - Créez un nouveau dépôt (**Public** ou **Privé**).
