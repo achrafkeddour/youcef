@@ -3,7 +3,7 @@
 1. lancer le debut du code en V0 (ai assistant) et le mettre en VScode
 2. créer "New repository" en GitHub (Public ou privé)
 
-3. 
+3. Initialisation
 git init          # Initialise un nouveau dépôt Git 
 git add .         # Ajoute tous les fichiers et modifications à l’index (zone de staging)
 git commit -m "Premier commit"   
